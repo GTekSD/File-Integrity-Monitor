@@ -1,8 +1,8 @@
 
 
-└─$ find *.txt -exec md5sum {} \; > hashmod
+└─$ find * -exec md5sum {} \; > hash_original
                                                                                                                                                             
-└─$ find *.txt -exec md5sum {} \; > hashnew
+└─$ find * -exec md5sum {} \; > hash_modefied
                                                                                                                                                              
-└─$ diff hashnew hashmod
+└─$ diff hash_original hash_modefied
 
