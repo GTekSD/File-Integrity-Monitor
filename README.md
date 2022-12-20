@@ -11,18 +11,11 @@ This code basically check if the given files get altered, changed or modified. i
 Here is a simple flow chart:
 
 ```mermaid
-A=Start;
-B=Ask user what they want to do:;
-C=Collect new Baseline;
-D=Begin monitoring files with saved Baseline;
-E=Continuously monitor file inteqrity;
-F=Notify user if a file is chanqed or deleted;
-
 graph TD;
-    A-->B;
-    B-->C;
-    B-->D;
-    D-->E;
+    A(Start)-->B(Ask user what they want to do);
+    B-->C(Collect new Baseline);
+    B-->D(Begin monitoring files with saved Baseline);
+    D-->E(Continuously monitor file inteqrity);
     E-->E;
-    E-->F;
+    E-->F(Notify user if a file is chanqed or deleted);
 ```
