@@ -32,7 +32,7 @@ What would you like to do?
 
 Please enter "A" or "B": A
 ```
-    This will calculate the SHA-512 hash value for each file in the "Files" directory and store the filenames and hash values in a file called "baseline.txt".
+   This will calculate the SHA-512 hash value for each file in the "Files" directory and store the filenames and hash values in a file called "baseline.txt".
 
 2. If you want to begin monitoring the files with a saved baseline, select option "B" when prompted:
 ```
@@ -43,6 +43,6 @@ What would you like to do?
 
 Please enter "A" or "B": B
 ```
-    This will load the filenames and hash values from the "baseline.txt" file into a dictionary and begin continuously monitoring the "Files" directory for changes. If a new file is created, the script will print a message indicating that a new file has been created. If an existing file is modified, the script will print a message indicating that the file has changed. If an existing file is deleted, the script will print a message indicating that the file has been deleted.
+   This will load the filenames and hash values from the "baseline.txt" file into a dictionary and begin continuously monitoring the "Files" directory for changes. If a new file is created, the script will print a message indicating that a new file has been created. If an existing file is modified, the script will print a message indicating that the file has changed. If an existing file is deleted, the script will print a message indicating that the file has been deleted.
 
 Note: If the "baseline.txt" file does not exist when you select option "B", the script will throw an error and terminate. Make sure to collect a baseline first by selecting option "A" if you have not done so already.
