@@ -5,7 +5,7 @@
 
 #!/bin/bash
 
-echo "Enter a directory path or file name:"
+echo "Enter a directory path or file pattern:"
 read path
 
 # Get the current date and time in the format "DD-MM-YYYY_HH:MM:SS"
